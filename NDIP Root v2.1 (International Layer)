@@ -1,0 +1,130 @@
+{
+  "p": "nesges-identity",
+  "op": "root_anchor",
+  "version": "2.1",
+  "timestamp": "2026-04-20T00:00:00Z",
+  "network": "bitcoin",
+  "identity": {
+    "id": "NESGES-ID-ROOT-0001",
+    "type": "sovereign_institutional_identity",
+    "entity": {
+      "name": "NESGESFinance Ecosystem S.A.S. / LLC",
+      "jurisdiction": "International"
+    },
+    "controller": {
+      "name": "Joan Santiago Ramirez Almeida",
+      "role": "Founder & CEO"
+    }
+  },
+  "wallet": {
+    "primary": {
+      "address": "bc1ptur3s5amrqcn93r8k9rhrdjm5fmvukgdt63tjjgxrvkwmyqswqcsjy3q99",
+      "network": "bitcoin",
+      "type": "taproot",
+      "role": "root_anchor_wallet"
+    }
+  },
+  "endpoints": {
+    "website": "https://nesgesfinance.org",
+    "verification": "https://nesgesfinance.org/verify",
+    "repository": "https://github.com/NESGESFinance/serie-A"
+  },
+  "contact": {
+    "email": "info.nesgesfinance@gmail.com",
+    "type": "official",
+    "visibility": "public"
+  },
+  "legal": {
+    "entity_name": "NESGESFinance Ecosystem S.A.S. / LLC",
+    "brand_statement": "Tokenization with Purpose",
+    "copyright": "© 2025-2026 NESGESFinance Ecosystem S.A.S. / LLC",
+    "rights": "All rights reserved",
+    "notice": "This ecosystem and its digital infrastructure are protected as intellectual property verifiable through blockchain."
+  },
+  "documents": [
+    {
+      "id": "doc-001",
+      "name": "Digital Signature",
+      "type": "identity_signature",
+      "source": "https://raw.githubusercontent.com/NESGESFinance/Identidad-Digital/main/Firma_Digital-Joan_Santiago_Ramírez_Almeida.jpg",
+      "hash": "0ce5307dc89ee24645ff73bde653ac708ff682ea4d2ec50bda8d02b8b126923e",
+      "txid": "6c02fa23f68f37419b5747839f50f02d47da8c04849af2acc90497a2a8b81448",
+      "status": "confirmed"
+    },
+    {
+      "id": "doc-002",
+      "name": "Official Logo",
+      "type": "brand_asset",
+      "source": "https://raw.githubusercontent.com/NESGESFinance/nesgesfinance-logo/main/Logo%20NESGESFinance.jpg",
+      "hash": "696c88aa2ae8da4936bef76fb13bbe65345df205cd637af2fe23884178051ecd",
+      "txid": "99a98b6649611dc72a9385a2a810293d03af511212e00520950b53abd121e27f",
+      "status": "confirmed"
+    },
+    {
+      "id": "doc-003",
+      "name": "Service Agreement",
+      "type": "legal_contract",
+      "source": "https://raw.githubusercontent.com/NESGESFinance/serie-A/main/Contrato%20de%20Servicios%20NESGESFinance.pdf",
+      "hash": "4e90c8094f740caccd88c9fabada6cd8729bf97874b0ceb3481fb669051f870d",
+      "txid": "e3049bddee9c932982c3359e00bff5a82a62ffb24fdac70372ef00f04302853b",
+      "status": "confirmed"
+    },
+    {
+      "id": "doc-004",
+      "name": "Operations Manual",
+      "type": "operations_manual",
+      "source": "https://raw.githubusercontent.com/NESGESFinance/serie-A/main/Manual%20de%20Procedimientos.pdf",
+      "hash": "ba751a36163ebae92d658b2c7310edfaf6c39b58dd92610760994d6010e9ae4e",
+      "txid": "f120d489c0402c346e31eb5ac038e5264eeecab39733c836478eea0e755dfacd",
+      "status": "confirmed"
+    },
+    {
+      "id": "doc-005",
+      "name": "Wallet and Custody Policy",
+      "type": "security_policy",
+      "source": "https://raw.githubusercontent.com/NESGESFinance/serie-A/main/Pol%C3%ADtica%20de%20Wallets%20y%20Custodia.pdf",
+      "hash": "47382d589091ee06a9ab5deeadb11e5fd0c369444e3bb994f346f04c405355a2",
+      "txid": "d1d049e91b1e17189d2074b6637752d4a14945c095d90ebd46f868475ae0cf38",
+      "status": "confirmed"
+    },
+    {
+      "id": "doc-006",
+      "name": "Master Document – Series A",
+      "type": "master_document",
+      "source": "https://raw.githubusercontent.com/NESGESFinance/serie-A/main/Documento%20Maestro%20NESGESFinance%20Serie%20A.pdf",
+      "hash": "8c572864be985ff0aa8efa87e413752b52fc1f562bd79bb8c47ee188536130bf",
+      "txid": "e6091eca13ebe2583e1b90409bd86004dc9721d29fc655bbe90e2cf002a7b96a",
+      "status": "confirmed"
+    },
+    {
+      "id": "doc-007",
+      "name": "Blockchain Reconciliation Manual",
+      "type": "reconciliation_manual",
+      "source": "https://raw.githubusercontent.com/NESGESFinance/serie-A/main/Manual%20de%20Conciliaci%C3%B3n%20Blockchain.pdf",
+      "hash": "05fdbfba019809613543bccc21d9decb1e4d359e454a3351a5232f107bf46462",
+      "txid": "e09181635c8a932135575643dcead2bce8f522cbcb30b943811b6cb9bb3af0d6",
+      "status": "confirmed"
+    }
+  ],
+  "security": {
+    "hash_algorithm": "sha256",
+    "integrity_model": "deterministic",
+    "tamper_evident": true
+  },
+  "governance": {
+    "model": "self-sovereign",
+    "update_mechanism": "versioned_anchor",
+    "control": "wallet_signature"
+  },
+  "compliance": {
+    "audit_ready": true,
+    "traceability": "full",
+    "onchain_proof": true
+  },
+  "metadata": {
+    "protocol": "NDIP (NESGESFinsnce Digital Identity Protocol)",
+    "standard": "bitcoin-ordinal-anchor",
+    "document_type": "root_index",
+    "status": "active"
+  }
+}
